@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D532356E296C833A000AE219 /* HttpDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D532356D296C833A000AE219 /* HttpDownloader.swift */; };
 		D568C506293B8BA70067C44E /* ContributorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568C505293B8BA70067C44E /* ContributorsApp.swift */; };
 		D568C508293B8BA70067C44E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568C507293B8BA70067C44E /* ContentView.swift */; };
 		D568C50A293B8BAA0067C44E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D568C509293B8BAA0067C44E /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D532356D296C833A000AE219 /* HttpDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpDownloader.swift; sourceTree = "<group>"; };
 		D568C502293B8BA70067C44E /* Contributors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contributors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D568C505293B8BA70067C44E /* ContributorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributorsApp.swift; sourceTree = "<group>"; };
 		D568C507293B8BA70067C44E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				D5806922293B9370001BC72E /* Utils */,
+				D5806921293B9334001BC72E /* Client */,
 				D5806920293B9326001BC72E /* Model */,
 				D568C505293B8BA70067C44E /* ContributorsApp.swift */,
 				D568C507293B8BA70067C44E /* ContentView.swift */,
@@ -142,6 +145,14 @@
 				D5E938CB2969EE2400DD3CDC /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D5806921293B9334001BC72E /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				D532356D296C833A000AE219 /* HttpDownloader.swift */,
+			);
+			path = Client;
 			sourceTree = "<group>";
 		};
 		D5806922293B9370001BC72E /* Utils */ = {
@@ -282,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D532356E296C833A000AE219 /* HttpDownloader.swift in Sources */,
 				D568C508293B8BA70067C44E /* ContentView.swift in Sources */,
 				D5E938CC2969EE2400DD3CDC /* User.swift in Sources */,
 				D5E938CA2969EDFE00DD3CDC /* Repo.swift in Sources */,
