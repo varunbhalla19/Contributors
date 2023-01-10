@@ -18,6 +18,7 @@
 		D5E938C82969ED9800DD3CDC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E938C72969ED9800DD3CDC /* Constants.swift */; };
 		D5E938CA2969EDFE00DD3CDC /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E938C92969EDFE00DD3CDC /* Repo.swift */; };
 		D5E938CC2969EE2400DD3CDC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E938CB2969EE2400DD3CDC /* User.swift */; };
+		D5FE46F1296DE4DF00E0E7E9 /* RepoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FE46F0296DE4DF00E0E7E9 /* RepoClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		D5E938C72969ED9800DD3CDC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D5E938C92969EDFE00DD3CDC /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
 		D5E938CB2969EE2400DD3CDC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D5FE46F0296DE4DF00E0E7E9 /* RepoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				D532356D296C833A000AE219 /* HttpDownloader.swift */,
+				D5FE46F0296DE4DF00E0E7E9 /* RepoClient.swift */,
 			);
 			path = Client;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5FE46F1296DE4DF00E0E7E9 /* RepoClient.swift in Sources */,
 				D532356E296C833A000AE219 /* HttpDownloader.swift in Sources */,
 				D568C508293B8BA70067C44E /* ContentView.swift in Sources */,
 				D5E938CC2969EE2400DD3CDC /* User.swift in Sources */,
